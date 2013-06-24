@@ -1,6 +1,7 @@
 body {
   font-family: 'DroidSansRegular', sans-serif;
   background: #F7F5FE;
+    color: #1a1a1a;
 }
 
 body, body * {
@@ -44,10 +45,6 @@ date {
   border: 1px solid #F1ECFF;
   position: relative;
   padding: 5% 8% 5%;
-}
-
-#content p {
-	color: #1a1a1a;
 }
 
 a {
