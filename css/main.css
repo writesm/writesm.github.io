@@ -71,12 +71,13 @@ pre {
   line-height: 1.2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+]
 
 code {
   font-size: 13px;
   color: #888;
-  padding: 0 4px; }
+}
 
 posttitle a{
 	font-family: 'TeXGyrePagellaRegular', sans-serif;
