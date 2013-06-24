@@ -56,6 +56,29 @@ a {
 	color: rgb(104,190,255);
 }
 
+dt {
+	font-weight: bold;
+}
+
+.highlight {
+  margin: 0;
+  padding: 0; 
+  }
+
+pre {
+  overflow-x: auto;
+  padding: 10px 60px;
+  width: 100%;
+  line-height: 1.2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+code {
+  font-size: 13px;
+  color: #888;
+  padding: 0 4px; }
+
 posttitle a{
 	font-family: 'TeXGyrePagellaRegular', sans-serif;
 	font-variant: small-caps;
