@@ -66,17 +66,16 @@ dt {
 
 pre {
   overflow-x: auto;
-  padding: 10px 60px;
+  padding: 10px 30px;
   width: 100%;
   line-height: 1.2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; 
-]
+  border: 1px solid rgb(10,220,203);
+}
 
 code {
-  font-size: 13px;
-  color: #888;
 }
 
 posttitle a{
