@@ -51,11 +51,15 @@ date {
 	color: #1a1a1a;
 }
 
+a {
+	text-decoration: none;
+	color: rgb(104,190,255);
+}
+
 posttitle a{
 	font-family: 'TeXGyrePagellaRegular', sans-serif;
 	font-variant: small-caps;
 	font-size: 20px;
-	color: #1a1a1a;
 }
 #listofposts ol li p { padding:8px; font-size:13px; border-left: 1px solid #999; }
 #listofposts ol li p  a{ text-decoration: none; }
