@@ -8,7 +8,7 @@ You're free to do anything with it. Free as in freedom.
 
 ### Notes 
 I'm no expert on design. Just knew a little HTML/CSS/Ruby to put this up within some hours. 
-If you possess the eye of Sauron and want to improve this. A pull request will always be welcomed.
+If you wish to improve the layout or fix anything... A pull request will always be welcomed.
 
 ### To Do
 
