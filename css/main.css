@@ -1,85 +1,127 @@
-body {
-  font-family: 'DroidSansRegular', sans-serif;
-  background: #F7F5FE;
-    color: #1a1a1a;
+body
+{
+	background:#F7F5FE;
+	color:#1a1a1a;
+	font-family:DroidSansRegular, sans-serif;
 }
 
-body, body * {
-    -webkit-font-smoothing: antialiased; 
+body,body *
+{
+	-webkit-font-smoothing:antialiased;
 }
 
-ti {
-	font-family: 'TeXGyrePagellaRegular', sans-serif;
-	font-size: 36px;
-	font-variant: small-caps;
-	text-align: right;
-	line-height: 1em;
-	display: block;
-}
-
-h1 , h2, h3, h4, h5, h6 {
-	font-family: 'TeXGyrePagellaRegular', sans-serif;
-  font-variant: small-caps;
-}
-
-subti {
-	font-family: 'OswaldLight', sans-serif;
-	text-align: right;
+ti
+{
 	display:block;
+	font-family:TeXGyrePagellaRegular, sans-serif;
+	font-size:36px;
+	font-variant:small-caps;
+	line-height:1em;
+	text-align:right;
 }
 
-date {
-	font-size: 12px;
+h1,h2,h3,h4,h5,h6
+{
+	font-family:TeXGyrePagellaRegular, sans-serif;
+	font-variant:small-caps;
 }
 
-#content {
-	*zoom: 1;
-	font-size: 13px;
-	line-height: 20px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 800px;
-  background: #fff;
-  margin: 10px auto 10px;
-  border: 1px solid #F1ECFF;
-  position: relative;
-  padding: 5% 8% 5%;
+subti
+{
+	display:block;
+	font-family:OswaldLight, sans-serif;
+	text-align:right;
 }
 
-a {
-	text-decoration: none;
-	color: rgb(104,190,255);
+date
+{
+	font-size:12px;
 }
 
-dt {
-	font-weight: bold;
+#content
+{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	background:#fff;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	font-size:13px;
+	line-height:20px;
+	margin:10px auto;
+	max-width:800px;
+	padding:5% 8%;
+	position:relative;
+	width:100%;
+	zoom:1;
 }
 
-.highlight {
-  margin: 0;
-  padding: 0; 
-  }
-
-pre {
-  overflow-x: auto;
-  padding: 10px 30px;
-  width: 100%;
-  line-height: 1.2em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; 
-  border: 1px solid rgb(215, 230, 255);
+a
+{
+	color:#68beff;
+	text-decoration:none;
 }
 
-code {
+dt
+{
+	font-weight:700;
 }
 
-posttitle a{
-	font-family: 'TeXGyrePagellaRegular', sans-serif;
-	font-variant: small-caps;
-	font-size: 20px;
+.highlight
+{
+	margin:0;
+	padding:0;
 }
-#listofposts ol li p { padding:8px; font-size:13px; border-left: 1px solid #999; }
-#listofposts ol li p  a{ text-decoration: none; }
+
+pre
+{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	background:#f9f9f9;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	line-height:1.2em;
+	overflow-x:auto;
+	padding:10px;
+}
+
+posttitle a
+{
+	font-family:TeXGyrePagellaRegular, sans-serif;
+	font-size:20px;
+	font-variant:small-caps;
+}
+
+#listofposts ol li p
+{
+	border-left:1px solid #999;
+	font-size:13px;
+	padding:8px;
+}
+
+#listofposts ol li p a
+{
+	text-decoration:none;
+}
+
+blockquote
+{
+	background:#f9f9f9;
+	border:1px solid #ccc;
+	padding:.5em 10px;
+}
+
+blockquote:before
+{
+	color:#ccc;
+	content:open-quote;
+	font-size:4em;
+	line-height:.01em;
+	margin-right:.25em;
+	vertical-align:-.4em;
+}
+
+blockquote p
+{
+	display:inline;
+	font-size:12px;
+}
